@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-    <p>Start Learning From Now</p>
+    <p>Start Learning From Now Onwards</p>
       </header>
     </div>
   );
