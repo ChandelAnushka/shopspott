@@ -10,10 +10,10 @@ function App() {
   return (
   	<div>
     <Home />
-    {/* <Shop />
-    <Blog />
-    <Login />
-    <Contact /> */}
+    {/* <Shop /> */}
+    {/* <Blog /> */}
+    {/* <Login /> */}
+    {/* <Contact /> */}
     </div>
   );
 }

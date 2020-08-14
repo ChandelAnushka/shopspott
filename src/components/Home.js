@@ -39,6 +39,13 @@ import r11 from "./img/deals/r11.jpg";
 
 
 function Home() {
+
+	const openMenu = () => {
+		document.querySelector("").classList.add("open");
+	} 
+	const closeMenu = () => {
+		
+	} 
   return (
 <div>
     <header class="header_area sticky-header">

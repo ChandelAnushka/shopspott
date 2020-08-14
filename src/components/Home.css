@@ -313,6 +313,39 @@ padding-top: 130px; }
     background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
     background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%); } }
 
+    #category .organic-breadcrumb {
+      margin-bottom: 100px; }
+    
+    .breadcrumb-banner {
+      padding: 90px 0 100px 0; }
+      .breadcrumb-banner h1 {
+        font-weight: 600;
+        color: #fff; }
+        @media (max-width: 767px) {
+          .breadcrumb-banner h1 {
+            font-size: 30px; } }
+      .breadcrumb-banner p {
+        margin-bottom: 0;
+        color: #fff; }
+      .breadcrumb-banner nav a {
+        display: inline-block;
+        color: #fff;
+        font-weight: 400; }
+        .breadcrumb-banner nav a span {
+          display: inline-block;
+          margin: 0 10px; }
+      .breadcrumb-banner .col-first {
+        padding-right: 15px; }
+        @media (max-width: 1680px) {
+          .breadcrumb-banner .col-first {
+            padding-right: 40px; } }
+        @media (max-width: 991px) {
+          .breadcrumb-banner .col-first {
+            width: 48%; } }
+        @media (max-width: 767px) {
+          .breadcrumb-banner .col-first {
+            width: 100%; } }
+
 
 
 
@@ -692,6 +725,199 @@ padding-top: 130px; }
           line-height: 32px; }
           .exclusive-deal-area .exclusive-right .product-details .add-bag .add-btn span {
             transform: rotate(0deg); }
+
+
+/* Login form Area css
+============================================================================================ */
+.login_box_area .login_box_img {
+  margin-right: -30px;
+  position: relative; }
+  .login_box_area .login_box_img img {
+    width: 100%; }
+  .login_box_area .login_box_img:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    opacity: .5; }
+  .login_box_area .login_box_img .hover {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%); }
+    .login_box_area .login_box_img .hover h4 {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 15px; }
+    .login_box_area .login_box_img .hover p {
+      max-width: 380px;
+      margin: 0px auto 25px;
+      color: #fff; }
+    .login_box_area .login_box_img .hover .primary-btn {
+      border-radius: 0px;
+      line-height: 38px;
+      text-transform: uppercase; }
+      .login_box_area .login_box_img .hover .primary-btn:hover:before {
+        left: 260px; }
+
+.login_form_inner {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+  height: 100%;
+  text-align: center;
+  padding-top: 115px; }
+  .login_form_inner h3 {
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 30px; }
+  .login_form_inner .login_form {
+    max-width: 385px;
+    margin: auto; }
+  .login_form_inner.reg_form {
+    padding-top: 60px; }
+    .login_form_inner.reg_form h3 {
+      margin-bottom: 70px; }
+
+.login_form .form-group input {
+  height: 54px;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none; }
+.login_form .form-group .creat_account {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: left; }
+  .login_form .form-group .creat_account input {
+    height: auto;
+    margin-right: 10px; }
+.login_form .form-group .primary-btn {
+  display: block;
+  border-radius: 0px;
+  line-height: 38px;
+  width: 100%;
+  text-transform: uppercase;
+  border: none; }
+  .login_form .form-group .primary-btn:hover:before {
+    left: 370px; }
+.login_form .form-group a {
+  font-size: 14px;
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  display: block; }
+
+/* End Login form Area css
+============================================================================================ */
+
+
+
+/*============== contact_area css ================*/
+.mapBox {
+  height: 420px;
+  margin-top: 80px;
+  margin-bottom: 100px; }
+
+.contact_info .info_item {
+  position: relative;
+  padding-left: 45px; }
+  .contact_info .info_item i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffba00;
+    font-weight: 600; }
+  .contact_info .info_item h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #222222; }
+    .contact_info .info_item h6 a {
+      color: #222222; }
+  .contact_info .info_item p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0px; }
+
+.contact_form .form-group {
+  margin-bottom: 10px; }
+  .contact_form .form-group .form-control {
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px; }
+    .contact_form .form-group .form-control:focus {
+      box-shadow: none;
+      outline: none; }
+    .contact_form .form-group .form-control.placeholder {
+      color: #999; }
+    .contact_form .form-group .form-control:-moz-placeholder {
+      color: #999; }
+    .contact_form .form-group .form-control::-moz-placeholder {
+      color: #999; }
+    .contact_form .form-group .form-control::-webkit-input-placeholder {
+      color: #999; }
+  .contact_form .form-group textarea {
+    resize: none; }
+    .contact_form .form-group textarea.form-control {
+      height: 134px; }
+.contact_form .primary-btn {
+  background: #ffba00;
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0; }
+
+/* Contact Success and error Area css
+============================================================================================ */
+.modal-message .modal-dialog {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) !important;
+  margin: 0px;
+  max-width: 500px;
+  width: 100%; }
+  .modal-message .modal-dialog .modal-content .modal-header {
+    text-align: center;
+    display: block;
+    border-bottom: none;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .modal-message .modal-dialog .modal-content .modal-header .close {
+      position: absolute;
+      right: -15px;
+      top: -15px;
+      padding: 0px;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer; }
+    .modal-message .modal-dialog .modal-content .modal-header h2 {
+      display: block;
+      text-align: center;
+      color: #ffba00;
+      padding-bottom: 10px;
+      font-family: "Roboto", sans-serif; }
+    .modal-message .modal-dialog .modal-content .modal-header p {
+      display: block; }
+
+/* End Contact Success and error Area css
+============================================================================================ */
+
+
 
 
   .footer-area {
