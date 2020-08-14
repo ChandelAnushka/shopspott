@@ -1,6 +1,6 @@
 import React from 'react';
 import c1 from "./img/brand/1.png";
-import './Category.css'
+import './Shop.css'
 import './Home.css'
 import c4 from './img/logo.png';
 import c5 from './img/product/p1.jpg';
@@ -9,15 +9,15 @@ import c7 from './img/product/p3.jpg';
 import c8 from './img/product/p4.jpg';
 import c9 from './img/product/p5.jpg';
 import c10 from './img/product/p6.jpg';
-import c11 from './img/r1.jpg';
-import c12 from './img/r2.jpg';
-import c13 from './img/r3.jpg';
-import c14 from './img/r5.jpg';
-import c15 from './img/r6.jpg';
-import c16 from './img/r7.jpg';
-import c17 from './img/r9.jpg';
-import c18 from './img/r10.jpg';
-import c19 from './img/r11.jpg';
+import c11 from './img/deals/r1.jpg';
+import c12 from './img/deals/r2.jpg';
+import c13 from './img/deals/r3.jpg';
+import c14 from './img/deals/r5.jpg';
+import c15 from './img/deals/r6.jpg';
+import c16 from './img/deals/r7.jpg';
+import c17 from './img/deals/r9.jpg';
+import c18 from './img/deals/r10.jpg';
+import c19 from './img/deals/r11.jpg';
 import c20 from './img/category/c5.jpg';
 import c22 from './img/i1.jpg';
 import c23 from './img/i2.jpg';

@@ -1,7 +1,7 @@
 import React from 'react';
 import c2 from "./img/blog/cat-post/cat-post-3.jpg";
 import c1 from "./img/brand/1.png";
-import c3 from './img/blog/cat-post/cat-post-2.jpg';
+import c3 from "./img/blog/cat-post/cat-post-2.jpg";
 import './Blog.css'
 import c4 from './img/blog/cat-post/cat-post-1.jpg';
 import c5 from './img/blog/main-blog/m-blog-1.jpg';
