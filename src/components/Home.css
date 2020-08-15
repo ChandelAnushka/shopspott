@@ -170,7 +170,7 @@
         padding: 0; }
   
   #search_input_box {
-    position: fixed;
+  
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -181,7 +181,8 @@
     max-width: 1200px;
     z-index: 999;
     text-align: center;
-    padding: 5px 20px; }
+    padding: 5px 20px;
+    display: none; }
     #search_input_box .form-control {
       background: transparent;
       border: 0;
@@ -444,10 +445,10 @@ padding-top: 130px; }
 
 
 
-
   /* start product area css
 ============================================================================================ */
 .active-product-area {
+    background: #f9f9ff;
     padding-top: 70px;
     padding-bottom: 50px; }
     .active-product-area .owl-nav div {
@@ -515,87 +516,88 @@ padding-top: 130px; }
           margin-top: -20px;
           right: 28%; } }
   
-  .single-product {
-    margin-bottom: 50px; }
-    .single-product img {
-      margin-bottom: 20px;
-      width: 100%; }
-    .single-product .product-details h6 {
-      font-size: 16px;
-      text-transform: uppercase; }
-    .single-product .product-details .price h6 {
-      font-size: 14px;
-      display: inline-block;
-      padding-right: 15px;
-      margin: 0; }
-    .single-product .product-details .price .l-through {
-      text-decoration: line-through;
-      color: #cccccc;
-      margin-bottom: 0; }
-    .single-product .product-details .prd-bottom {
-      position: relative;
-      margin-top: 20px; }
-      .single-product .product-details .prd-bottom .social-info {
-        position: relative;
-        display: inline-block;
-        width: 35px;
-        -webkit-transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-        overflow: hidden; }
-        .single-product .product-details .prd-bottom .social-info span {
-          position: relative;
-          height: 30px;
-          width: 30px;
-          line-height: 30px;
-          text-align: center;
-          background: #828bb2;
-          border-radius: 50%;
-          display: inline-block;
-          color: #fff;
-          -webkit-transition: all 0.3s ease 0s;
-          -moz-transition: all 0.3s ease 0s;
-          -o-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
-          z-index: 1; }
-          .single-product .product-details .prd-bottom .social-info span:after {
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 100%;
-            width: 100%;
-            content: "";
-            border-radius: 50%;
-            opacity: 0;
-            visibility: hidden;
-            z-index: -1; }
-        .single-product .product-details .prd-bottom .social-info .hover-text {
-          position: absolute;
-          left: 0;
-          top: 3px;
-          width: 100px;
-          left: -40px;
-          text-transform: uppercase;
-          font-family: "Poppins", sans-serif;
-          font-weight: 500;
-          font-size: 12px;
-          color: #222222;
-          -webkit-transition: all 0.3s ease 0s;
-          -moz-transition: all 0.3s ease 0s;
-          -o-transition: all 0.3s ease 0s;
-          transition: all 0.3s ease 0s;
-          opacity: 0;
-          visibility: hidden; }
-        .single-product .product-details .prd-bottom .social-info:hover {
-          width: 115px; }
-          .single-product .product-details .prd-bottom .social-info:hover span:after {
-            opacity: 1;
-            visibility: visible; }
-          .single-product .product-details .prd-bottom .social-info:hover .hover-text {
-            opacity: 1;
-            visibility: visible;
-            left: 40px; }
+          .single-product {
+            text-align: left;
+            margin-bottom: 50px; }
+            .single-product img {
+              margin-bottom: 20px;
+              width: 100%; }
+            .single-product .product-details h6 {
+              font-size: 16px;
+              text-transform: uppercase; }
+            .single-product .product-details .price h6 {
+              font-size: 14px;
+              display: inline-block;
+              padding-right: 15px;
+              margin: 0; }
+            .single-product .product-details .price .l-through {
+              text-decoration: line-through;
+              color: #cccccc;
+              margin-bottom: 0; }
+            .single-product .product-details .prd-bottom {
+              position: relative;
+              margin-top: 20px; }
+              .single-product .product-details .prd-bottom .social-info {
+                position: relative;
+                display: inline-block;
+                width: 35px;
+                -webkit-transition: all 0.3s ease 0s;
+                -moz-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                overflow: hidden; }
+                .single-product .product-details .prd-bottom .social-info span {
+                  position: relative;
+                  height: 30px;
+                  width: 30px;
+                  line-height: 30px;
+                  text-align: center;
+                  background: #828bb2;
+                  border-radius: 50%;
+                  display: inline-block;
+                  color: #fff;
+                  -webkit-transition: all 0.3s ease 0s;
+                  -moz-transition: all 0.3s ease 0s;
+                  -o-transition: all 0.3s ease 0s;
+                  transition: all 0.3s ease 0s;
+                  z-index: 1; }
+                  .single-product .product-details .prd-bottom .social-info span:after {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    content: "";
+                    border-radius: 50%;
+                    opacity: 0;
+                    visibility: hidden;
+                    z-index: -1; }
+                .single-product .product-details .prd-bottom .social-info .hover-text {
+                  position: absolute;
+                  left: 0;
+                  top: 3px;
+                  width: 100px;
+                  left: -40px;
+                  text-transform: uppercase;
+                  font-family: "Poppins", sans-serif;
+                  font-weight: 500;
+                  font-size: 12px;
+                  color: #222222;
+                  -webkit-transition: all 0.3s ease 0s;
+                  -moz-transition: all 0.3s ease 0s;
+                  -o-transition: all 0.3s ease 0s;
+                  transition: all 0.3s ease 0s;
+                  opacity: 0;
+                  visibility: hidden; }
+                .single-product .product-details .prd-bottom .social-info:hover {
+                  width: 115px; }
+                  .single-product .product-details .prd-bottom .social-info:hover span:after {
+                    opacity: 1;
+                    visibility: visible; }
+                  .single-product .product-details .prd-bottom .social-info:hover .hover-text {
+                    opacity: 1;
+                    visibility: visible;
+                    left: 40px; }
   
   /* end product area css
   ============================================================================================ */
@@ -663,8 +665,11 @@ padding-top: 130px; }
       .exclusive-deal-area .exclusive-left .primary-btn {
         margin-top: 40px; }
     .exclusive-deal-area .exclusive-right {
+      
       text-align: center; }
+      
       .exclusive-deal-area .exclusive-right .active-exclusive-product-slider {
+        
         padding: 0 230px; }
         @media (max-width: 1440px) {
           .exclusive-deal-area .exclusive-right .active-exclusive-product-slider {
@@ -699,8 +704,12 @@ padding-top: 130px; }
         .exclusive-deal-area .exclusive-right .active-exclusive-product-slider .owl-nav .owl-next {
           left: auto;
           right: 5%; }
+          .single-exclusive-slider {
+            background: #f9f9ff;
+          }
         @media (max-width: 991px) {
           .exclusive-deal-area .exclusive-right .active-exclusive-product-slider .single-exclusive-slider {
+            
             padding-bottom: 80px; }
             .exclusive-deal-area .exclusive-right .active-exclusive-product-slider .single-exclusive-slider img {
               max-width: 450px;
