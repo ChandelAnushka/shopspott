@@ -28,6 +28,7 @@ import c24 from './img/logo.png';
 function Blog() {
 	return (
         <div>
+		//Header Part
 <header class="header_area sticky-header">
     <div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
@@ -76,6 +77,7 @@ function Blog() {
     </div>
   </div>
   </header>
+		//Header Part Ending
     <div class="banner-area organic-breadcrumb">
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -489,7 +491,7 @@ function Blog() {
             </div>
         </div>
     </div>
-
+//footer part beginning
     <footer class="footer-area section_gap">
         <div class="container">
             <div class="row">
@@ -557,6 +559,7 @@ function Blog() {
             <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
                 <p class="footer-text m-0">
 </p>
+		//end of footer part
             </div>
         </div>
     </footer>
