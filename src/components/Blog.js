@@ -30,7 +30,9 @@ import c24 from './img/logo.png';
 function Blog() {
 	return (
         <div>
+
 <Navbar />
+
     <div class="banner-area organic-breadcrumb">
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -446,6 +448,7 @@ function Blog() {
     </div>
 
     <Footer />
+
     </div>
     );
     }
